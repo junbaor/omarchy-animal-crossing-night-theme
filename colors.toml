@@ -1,0 +1,34 @@
+# 动物森友会-夜 (Animal Crossing Night) — moonlit navy, firefly lanterns
+mode = "dark"
+
+accent = "#7CC85C"
+selection = "#2E4A56"
+selection_foreground = "#F6EFDC"
+selection_background = "#2E4A56"
+muted = "#78848F"
+
+background = "#1F2A33"
+dark_background = "#18222A"
+darker_background = "#121A21"
+lighter_background = "#2A3742"
+
+foreground = "#E6DEC8"
+dark_foreground = "#8B94A0"
+light_foreground = "#EFE7D3"
+bright_foreground = "#F6EFDC"
+
+red = "#E8756A"
+yellow = "#F2C94C"
+orange = "#E89B5A"
+green = "#7CC85C"
+cyan = "#5FBFC4"
+blue = "#6FB6DC"
+magenta = "#D98BB5"
+brown = "#A9846A"
+
+bright_red = "#F08377"
+bright_yellow = "#FFD966"
+bright_green = "#8FD16B"
+bright_cyan = "#74D0D4"
+bright_blue = "#82C4E8"
+bright_magenta = "#E69FC6"

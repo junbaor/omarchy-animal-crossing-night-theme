@@ -1,0 +1,102 @@
+<svg width="2560" height="1440" viewBox="0 0 2560 1440" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#0A0F14" flood-opacity="0.55"/>
+    </filter>
+    <g id="nookLeaf">
+      <path d="M-44 66 C -74 40 -76 -8 -52 -44 C -30 -78 18 -92 54 -64 C 58 -28 50 18 22 46 C 2 64 -22 74 -44 66 Z"/>
+      <path d="M-40 60 C -20 26 -2 -14 16 -52" stroke="#3F7D32" stroke-width="11" fill="none" stroke-linecap="round"/>
+      <path d="M-44 66 q -12 10 -30 10" stroke="#3F7D32" stroke-width="9" fill="none" stroke-linecap="round"/>
+    </g>
+    <g id="flower">
+      <path d="M0 26 L0 2" stroke="#4E8F3A" stroke-width="5" stroke-linecap="round"/>
+      <g>
+        <ellipse cx="0" cy="-16" rx="9" ry="13"/>
+        <ellipse cx="0" cy="-16" rx="9" ry="13" transform="rotate(72 0 -2)"/>
+        <ellipse cx="0" cy="-16" rx="9" ry="13" transform="rotate(144 0 -2)"/>
+        <ellipse cx="0" cy="-16" rx="9" ry="13" transform="rotate(216 0 -2)"/>
+        <ellipse cx="0" cy="-16" rx="9" ry="13" transform="rotate(288 0 -2)"/>
+      </g>
+      <circle cx="0" cy="-2" r="8" fill="#F2C94C"/>
+    </g>
+  </defs>
+
+  <!-- wallpaper -->
+  <image href="1-island-night.png" x="0" y="0" width="2560" height="1440"/>
+
+  <!-- top bar -->
+  <g>
+    <rect x="0" y="0" width="2560" height="58" fill="#1F2A33" opacity="0.94"/>
+    <rect x="0" y="56" width="2560" height="2" fill="#31424E"/>
+    <rect x="26" y="13" width="32" height="32" rx="9" fill="#7CC85C"/>
+    <use xlink:href="#nookLeaf" transform="translate(42,29) scale(0.17)" fill="#1F2A33"/>
+    <g fill="#5A6672">
+      <circle cx="106" cy="29" r="8" fill="#7CC85C"/>
+      <circle cx="140" cy="29" r="8"/>
+      <circle cx="174" cy="29" r="8"/>
+      <circle cx="208" cy="29" r="8"/>
+      <circle cx="242" cy="29" r="8"/>
+    </g>
+    <text x="1280" y="39" text-anchor="middle" font-family="Noto Sans CJK SC" font-weight="bold" font-size="27" fill="#E6DEC8">周六 21:00</text>
+    <!-- wifi / volume / battery -->
+    <g stroke="#B8AE94" stroke-width="5" fill="none" stroke-linecap="round">
+      <path d="M2282 36 q 20 -18 40 0"/>
+      <path d="M2290 44 q 12 -11 24 0"/>
+      <circle cx="2302" cy="49" r="2.6" fill="#B8AE94" stroke="none"/>
+    </g>
+    <g fill="#B8AE94">
+      <path d="M2354 30 l 10 0 l 14 -11 l 0 34 l -14 -11 l -10 0 Z"/>
+      <path d="M2386 27 q 10 9 0 18" stroke="#B8AE94" stroke-width="4" fill="none" stroke-linecap="round"/>
+    </g>
+    <rect x="2430" y="24" width="52" height="26" rx="8" fill="none" stroke="#B8AE94" stroke-width="4"/>
+    <rect x="2436" y="30" width="34" height="14" rx="4" fill="#B8AE94"/>
+    <rect x="2486" y="31" width="5" height="12" rx="2" fill="#B8AE94"/>
+  </g>
+
+  <!-- main card -->
+  <g filter="url(#cardShadow)">
+    <rect x="430" y="300" width="1700" height="880" rx="44" fill="#26323D"/>
+  </g>
+  <rect x="430" y="300" width="1700" height="880" rx="44" fill="none" stroke="#7CC85C" stroke-width="5"/>
+
+  <!-- logo badge -->
+  <circle cx="640" cy="480" r="100" fill="#7CC85C"/>
+  <use xlink:href="#nookLeaf" transform="translate(638,484) scale(0.62)" fill="#FBF5E6"/>
+
+  <!-- titles -->
+  <text x="800" y="452" font-family="Noto Sans CJK SC" font-weight="bold" font-size="112" fill="#F6EFDC">动物森友会-夜</text>
+  <text x="806" y="530" font-family="Noto Sans CJK SC" font-weight="bold" font-size="33" letter-spacing="7" fill="#8FD16B">ANIMAL CROSSING · OMARCHY NIGHT</text>
+  <text x="806" y="606" font-family="Noto Sans CJK SC" font-size="37" fill="#B3AB97">星夜下的小岛 · 萤火虫与暖灯 · 晚安村</text>
+
+  <line x1="806" y1="656" x2="1960" y2="656" stroke="#3A4A56" stroke-width="3"/>
+
+  <!-- palette swatches -->
+  <g>
+    <rect x="806"  y="700" width="92" height="92" rx="22" fill="#1F2A33" stroke="#4A5A66" stroke-width="3"/>
+    <rect x="926"  y="700" width="92" height="92" rx="22" fill="#2A3742" stroke="#4A5A66" stroke-width="3"/>
+    <rect x="1046" y="700" width="92" height="92" rx="22" fill="#7CC85C"/>
+    <rect x="1166" y="700" width="92" height="92" rx="22" fill="#F2C94C"/>
+    <rect x="1286" y="700" width="92" height="92" rx="22" fill="#E89B5A"/>
+    <rect x="1406" y="700" width="92" height="92" rx="22" fill="#E8756A"/>
+    <rect x="1526" y="700" width="92" height="92" rx="22" fill="#D98BB5"/>
+    <rect x="1646" y="700" width="92" height="92" rx="22" fill="#6FB6DC"/>
+    <rect x="1766" y="700" width="92" height="92" rx="22" fill="#5FBFC4"/>
+    <rect x="1886" y="700" width="92" height="92" rx="22" fill="#A9846A"/>
+  </g>
+
+  <!-- terminal mock -->
+  <g>
+    <rect x="806" y="850" width="1172" height="272" rx="20" fill="#121A21"/>
+    <path d="M806 870 a20 20 0 0 1 20 -20 h1132 a20 20 0 0 1 20 20 v34 h-1172 Z" fill="#1A242C"/>
+    <circle cx="842" cy="877" r="10" fill="#E8756A"/>
+    <circle cx="874" cy="877" r="10" fill="#F2C94C"/>
+    <circle cx="906" cy="877" r="10" fill="#7CC85C"/>
+    <text x="842" y="982" font-family="JetBrainsMono Nerd Font" font-size="31" fill="#E6DEC8">➜  ~  <tspan fill="#8FD16B">omarchy theme set</tspan> 动物森友会-夜</text>
+    <text x="842" y="1030" font-family="JetBrainsMono Nerd Font" font-size="29" fill="#8FD16B">✔ 晚安,村子就要熄灯了 ♪ good night ♪</text>
+    <text x="842" y="1078" font-family="JetBrainsMono Nerd Font" font-size="27" fill="#8B94A0" opacity="0.9">› wallpaper: 星夜小岛 / 月光草原 / 夜灯栈桥</text>
+  </g>
+
+  <!-- flowers on card corner -->
+  <use xlink:href="#flower" transform="translate(500,1140) scale(1.2)" fill="#CFC6A8"/>
+  <use xlink:href="#flower" transform="translate(560,1160) scale(0.95)" fill="#8A6A70"/>
+</svg>

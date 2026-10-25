@@ -1,0 +1,157 @@
+<svg width="2560" height="1440" viewBox="0 0 2560 1440" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="nightsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#121C27"/>
+      <stop offset="0.55" stop-color="#1B2F3F"/>
+      <stop offset="1" stop-color="#28424F"/>
+    </linearGradient>
+    <linearGradient id="nightsea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#28434F"/>
+      <stop offset="0.3" stop-color="#1E3440"/>
+      <stop offset="1" stop-color="#152430"/>
+    </linearGradient>
+    <radialGradient id="moonGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F4EBC8" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#F4EBC8" stop-opacity="0"/>
+    </radialGradient>
+    <g id="star4">
+      <path d="M0 -9 L2.2 -2.2 L9 0 L2.2 2.2 L0 9 L-2.2 2.2 L-9 0 L-2.2 -2.2 Z"/>
+    </g>
+    <g id="firefly">
+      <circle r="16" opacity="0.2"/>
+      <circle r="7" opacity="0.5"/>
+      <circle r="3.2"/>
+    </g>
+    <g id="silhouette-palm">
+      <path d="M-7 0 C -16 -78 -8 -158 7 -232 L 27 -227 C 14 -156 9 -78 13 0 Z"/>
+      <g transform="translate(10,-232)">
+        <path d="M0 0 C 42 -36 104 -40 152 -14 C 106 -4 54 10 6 12 Z" transform="rotate(-150)"/>
+        <path d="M0 0 C 42 -36 104 -40 152 -14 C 106 -4 54 10 6 12 Z" transform="rotate(-105)"/>
+        <path d="M0 0 C 42 -36 104 -40 152 -14 C 106 -4 54 10 6 12 Z" transform="rotate(-60)"/>
+        <path d="M0 0 C 42 -36 104 -40 152 -14 C 106 -4 54 10 6 12 Z" transform="rotate(-18)"/>
+        <path d="M0 0 C 42 -36 104 -40 152 -14 C 106 -4 54 10 6 12 Z" transform="rotate(28)"/>
+        <path d="M0 0 C 40 -32 98 -36 142 -12 C 100 -2 50 12 6 14 Z" transform="rotate(-128)"/>
+        <path d="M0 0 C 40 -32 98 -36 142 -12 C 100 -2 50 12 6 14 Z" transform="rotate(-84)"/>
+        <path d="M0 0 C 40 -32 98 -36 142 -12 C 100 -2 50 12 6 14 Z" transform="rotate(-40)"/>
+        <path d="M0 0 C 40 -32 98 -36 142 -12 C 100 -2 50 12 6 14 Z" transform="rotate(6)"/>
+        <path d="M0 0 C 40 -32 98 -36 142 -12 C 100 -2 50 12 6 14 Z" transform="rotate(52)"/>
+      </g>
+    </g>
+  </defs>
+
+  <!-- sky -->
+  <rect width="2560" height="870" fill="url(#nightsky)"/>
+
+  <!-- stars -->
+  <g fill="#EFE7CF">
+    <circle cx="220" cy="150" r="2.4" opacity="0.8"/>
+    <circle cx="520" cy="330" r="1.8" opacity="0.5"/>
+    <circle cx="760" cy="120" r="2.2" opacity="0.75"/>
+    <circle cx="980" cy="260" r="1.8" opacity="0.45"/>
+    <circle cx="1120" cy="480" r="1.8" opacity="0.35"/>
+    <circle cx="1900" cy="150" r="2" opacity="0.6"/>
+    <circle cx="2120" cy="420" r="2" opacity="0.5"/>
+    <circle cx="2340" cy="240" r="2.4" opacity="0.8"/>
+    <circle cx="2480" cy="480" r="1.8" opacity="0.4"/>
+    <circle cx="380" cy="560" r="1.8" opacity="0.35"/>
+    <circle cx="1660" cy="560" r="1.8" opacity="0.35"/>
+    <use xlink:href="#star4" transform="translate(680,220) scale(0.85)" opacity="0.85"/>
+    <use xlink:href="#star4" transform="translate(1020,150) scale(0.6)" opacity="0.6"/>
+    <use xlink:href="#star4" transform="translate(2020,120) scale(0.75)" opacity="0.75"/>
+    <use xlink:href="#star4" transform="translate(150,340) scale(0.55)" opacity="0.5"/>
+  </g>
+
+  <!-- moon -->
+  <circle cx="1600" cy="270" r="300" fill="url(#moonGlow)"/>
+  <circle cx="1600" cy="270" r="112" fill="#F2E7C4"/>
+  <circle cx="1568" cy="240" r="20" fill="#E2D5AC" opacity="0.85"/>
+  <circle cx="1636" cy="296" r="14" fill="#E2D5AC" opacity="0.8"/>
+
+  <!-- faint night clouds -->
+  <g fill="#2C4254" opacity="0.8">
+    <ellipse cx="420" cy="250" rx="190" ry="18"/>
+    <ellipse cx="560" cy="290" rx="120" ry="12" opacity="0.7"/>
+    <ellipse cx="2140" cy="330" rx="200" ry="18"/>
+  </g>
+
+  <!-- sea -->
+  <rect y="860" width="2560" height="580" fill="url(#nightsea)"/>
+  <rect y="860" width="2560" height="5" fill="#9FB6B0" opacity="0.3"/>
+
+  <!-- moon reflection -->
+  <g fill="#EFE3BC">
+    <ellipse cx="1600" cy="920" rx="180" ry="16" opacity="0.32"/>
+    <ellipse cx="1600" cy="990" rx="120" ry="13" opacity="0.24"/>
+    <ellipse cx="1600" cy="1080" rx="85" ry="10" opacity="0.18"/>
+    <ellipse cx="1600" cy="1180" rx="55" ry="8" opacity="0.13"/>
+  </g>
+
+  <!-- waves -->
+  <g stroke="#4E7285" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.5">
+    <path d="M420 990 q 40 -18 80 0"/>
+    <path d="M2050 960 q 34 -16 68 0"/>
+    <path d="M700 1130 q 44 -20 88 0"/>
+    <path d="M1180 1150 q 40 -18 80 0"/>
+    <path d="M330 1300 q 48 -22 96 0"/>
+    <path d="M900 1340 q 44 -20 88 0"/>
+  </g>
+
+  <!-- far islands -->
+  <path d="M60 860 C 140 822 260 822 340 860 Z" fill="#22343C"/>
+  <path d="M2180 860 C 2280 812 2440 812 2540 860 Z" fill="#22343C"/>
+  <g transform="translate(2430,845) scale(0.5)" fill="#1A2930">
+    <use xlink:href="#silhouette-palm"/>
+  </g>
+
+  <!-- pier -->
+  <g>
+    <rect x="1902" y="1210" width="26" height="150" rx="6" fill="#1A140E"/>
+    <rect x="2246" y="1190" width="26" height="170" rx="6" fill="#1A140E"/>
+    <rect x="2480" y="1170" width="26" height="190" rx="6" fill="#1A140E"/>
+    <path d="M1780 1240 L2560 1200 L2560 1290 L1780 1330 Z" fill="#2E2417"/>
+    <g stroke="#211A10" stroke-width="8">
+      <line x1="1900" y1="1234" x2="1896" y2="1326"/>
+      <line x1="2030" y1="1227" x2="2027" y2="1319"/>
+      <line x1="2160" y1="1220" x2="2158" y2="1312"/>
+      <line x1="2290" y1="1213" x2="2289" y2="1305"/>
+      <line x1="2420" y1="1206" x2="2420" y2="1298"/>
+    </g>
+    <path d="M1780 1240 L2560 1200 L2560 1216 L1780 1256 Z" fill="#3D3020"/>
+    <!-- lanterns -->
+    <line x1="1960" y1="1232" x2="1960" y2="1140" stroke="#1A140E" stroke-width="8"/>
+    <circle cx="1960" cy="1124" r="20" fill="#FFD98A"/>
+    <circle cx="1960" cy="1124" r="42" fill="#FFD98A" opacity="0.3"/>
+    <circle cx="1960" cy="1124" r="80" fill="#FFD98A" opacity="0.12"/>
+    <line x1="2320" y1="1213" x2="2320" y2="1130" stroke="#1A140E" stroke-width="7"/>
+    <circle cx="2320" cy="1116" r="15" fill="#FFD98A"/>
+    <circle cx="2320" cy="1116" r="34" fill="#FFD98A" opacity="0.28"/>
+  </g>
+
+  <!-- lantern reflections -->
+  <g fill="#FFD98A">
+    <ellipse cx="1960" cy="1300" rx="60" ry="10" opacity="0.3"/>
+    <ellipse cx="1960" cy="1360" rx="36" ry="8" opacity="0.2"/>
+    <ellipse cx="2320" cy="1330" rx="44" ry="9" opacity="0.25"/>
+  </g>
+
+  <!-- foreground shore bottom left -->
+  <path d="M-60 1440 L-60 1060 C 200 1000 420 1020 620 1090 C 780 1146 900 1240 960 1440 Z" fill="#1C2F28"/>
+  <path d="M-60 1440 L-60 1100 C 180 1048 380 1066 560 1126 C 700 1174 810 1260 870 1440 Z" fill="#16261F"/>
+
+  <g transform="translate(180,1085) scale(1.25)" fill="#122019">
+    <use xlink:href="#silhouette-palm"/>
+  </g>
+  <g transform="translate(470,1112) scale(0.95)" fill="#122019">
+    <use xlink:href="#silhouette-palm"/>
+  </g>
+
+  <!-- fireflies -->
+  <g fill="#FFE9A0">
+    <use xlink:href="#firefly" transform="translate(760,1180)"/>
+    <use xlink:href="#firefly" transform="translate(860,1060) scale(0.8)"/>
+    <use xlink:href="#firefly" transform="translate(640,980) scale(0.8)"/>
+    <use xlink:href="#firefly" transform="translate(1050,1240) scale(0.9)"/>
+    <use xlink:href="#firefly" transform="translate(1180,1330) scale(0.7)"/>
+    <use xlink:href="#firefly" transform="translate(1500,1290) scale(0.8)"/>
+  </g>
+</svg>
